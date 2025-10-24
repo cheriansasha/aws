@@ -1,9 +1,9 @@
 # Required inputs - replace with your values:
-AMI_ID = "ami-0341d95f75f311023"  # Amazon Machine Image ID
-INSTANCE_TYPE = "t3.micro"       # Instance type
-KEY_NAME = "sasha_kp"         # Key pair name
-SECURITY_GROUP = "sg-03dfcdd968168dc1b"   # Security group ID
-INSTANCE_NAME = "sasha_ec2_python123"  # Instance name tag
+AMI_ID = ""  # Amazon Machine Image ID
+INSTANCE_TYPE = ""       # Instance type
+KEY_NAME = ""         # Key pair name
+SECURITY_GROUP = ""   # Security group ID
+INSTANCE_NAME = ""  # Instance name tag
 
 import boto3
 
